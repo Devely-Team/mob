@@ -1,4 +1,4 @@
-module devely.com/mob
+module github.com/Devely-Team/mob
 
 go 1.17
 

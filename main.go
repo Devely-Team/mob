@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"devely.com/mob/cli"
+	"github.com/Devely-Team/mob/cli"
 	"github.com/erikgeiser/promptkit/selection"
 )
 

@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"devely.com/mob/utils"
+	"github.com/Devely-Team/mob/utils"
 )
 
 func Test() {
