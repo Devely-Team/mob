@@ -23,6 +23,15 @@ func Setup() {
 		utils.PrintEmptyLine()
 		utils.RunCommandWithArgs("brew", []string{"install", "xcodegen"})
 		utils.PrintEmptyLine()
+		fmt.Println("🔧 Installing Github CLI")
+		utils.PrintEmptyLine()
+		utils.RunCommandWithArgs("brew", []string{"install", "gh"})
+		utils.PrintEmptyLine()
+	} else {
+		fmt.Println("🔧 Installing Github CLI")
+		utils.PrintEmptyLine()
+		utils.RunCommandWithArgs("choco", []string{"install", "gh"})
+		utils.PrintEmptyLine()
 	}
 	fmt.Println("🔧 Installing Mason")
 	utils.PrintEmptyLine()
