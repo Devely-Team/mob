@@ -11,7 +11,7 @@ setup(
     license='MIT',
     description='A flutter project manager.',
     long_description_content_type="text/markdown",
-    url='<github url where the tool code will remain>',
+    url='https://github.com/Devely-Team/mob',
     py_modules=['mob', 'cli'],
     packages=find_packages(),
     install_requires=[requirements],
