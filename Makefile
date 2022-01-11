@@ -1,5 +1,7 @@
 setup:
-	brew install goreleaser
+	pip3 install virtualenv
+	pip3 install wheel
+	pip3 install setuptools
+	pip3 install twine
 
-release:
-	goreleaser release --rm-dist
+
