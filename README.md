@@ -22,5 +22,5 @@ It's very simple. Just run `mob` in your terminal. You can also run `mob --help`
 
 ## Which commands are available?
 - `mob generate`: Generate all files automatically.
-- `mob setup`: Setups your project.
+- `mob setup`: Setup your project.
 - `mob pullrequest`: Create a pull request.
