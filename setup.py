@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read()
 setup(
-    name='mob',
+    name='mob-devely',
     version='0.0.1',
     author='Devely',
     author_email='develyteam@gmail.com',
@@ -17,7 +17,7 @@ setup(
     install_requires=[requirements],
     python_requires='>=3.7',
     classifiers=[
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
     ],
     entry_points='''
