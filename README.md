@@ -7,7 +7,7 @@ Mob is a simple, fast, and powerful cli for flutter projects.
 <!-- Just run the following command: pip install --index-url https://test.pypi.org/simple/ mob-devely -->
 Just run the following command:
 ```
-pip install mob-devely
+pip3 install --index-url https://test.pypi.org/simple/ mob-devely
 ```
 
 And add the following line to your `.bashrc` file:
