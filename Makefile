@@ -3,13 +3,12 @@ setup:
 	pip3 install wheel
 	pip3 install setuptools
 	pip3 install twine
+	pip3 install -r requirements.txt
 
 install:
-	pip3 install twine
-	pip3 install setuptools
-	pip3 install wheel
-	pip3 install -r requirements.txt
-	
+	virtualenv devely
+	source devely/bin/activate
+	python3 setup.py develop
 
 release:
 	python3 setup.py sdist bdist_wheel
