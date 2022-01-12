@@ -16,3 +16,9 @@ release:
 
 install-release:
 	pip install --index-url https://test.pypi.org/simple/ mob-devely
+
+clean:
+	rm -rf dist
+	rm -rf build
+	rm -rf devely
+	rm -rf mob-devely.egg-info
