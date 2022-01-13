@@ -25,3 +25,6 @@ def run(dev=False):
         print_message("🔧 Installing dev dependencies (Github CLI)...")
         status = run_shell_command("brew install gh")
         show_status(status)
+
+        status = run_shell_command("gh auth login")
+        show_status(status)

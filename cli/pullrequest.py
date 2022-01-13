@@ -87,4 +87,4 @@ def run():
 
     template = get_template(description, categories)
     run_shell_command(
-        f"gh pr create --title {pull_request_title} --base develop --body {template}", False)
+        f'gh pr create --title \"{pull_request_title}\" --base develop --body \"{template}\"', False)
